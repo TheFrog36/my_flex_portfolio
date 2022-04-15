@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300;500&display=swap');
+
 html, body{
     margin: 0px;
     padding: 0px;
@@ -6,6 +8,8 @@ html, body{
     background-color: #b4b4b4;
     position: relative;
     min-width: 320px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-size:medium;
 }
 
 .header_div{
@@ -41,5 +45,8 @@ html, body{
     max-width: 15%;
     flex-grow: 1;
     text-align: center;
+}
+a, .header_menu{
+    text-decoration: none;
 }
 
