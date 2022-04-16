@@ -7,24 +7,24 @@ html, body{
     height: 100%;
     background-color: #b4b4b4;
     position: relative;
-    min-width: 320px;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size:medium;
+    
 }
 
-.header_div{
-    background-color: rgb(0, 4, 255);
+.page_container{
     min-width: 320px;
+    margin: auto;
     display: flex;
-    flex-direction: column;
+    max-width: 800px;
+    justify-content: center;
+    flex-wrap:wrap;
 }
 
 .header_img{
     background-color: rgb(131, 64, 255);
     display: flex;
-    flex-grow: 1;
     height: fit-content;
-    justify-content: center;
 }
 
 .logo{
@@ -32,21 +32,40 @@ html, body{
     height: 200px;
 }
 
-.header_menu{
-    background-color: rgb(151, 95, 255);
+.header_div{
+    background-color: rgb(0, 4, 255);
+    min-width: 320px;
+    flex-grow: 1;
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
     justify-content: center;
 }
 
-.menu_text{
-    background-color: rgb(174, 130, 255);
-    min-width: 320px;
-    max-width: 15%;
-    flex-grow: 1;
-    text-align: center;
+.div_menu{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 0px;
 }
-a, .header_menu{
-    text-decoration: none;
+
+.div_menu_column{
+    flex-grow: 1;
+    min-width: 300px;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.div_menu_text{
+    margin-top: 5px;
+    min-width: 200px;
+    flex-grow: 1;
+    height: 30px;
+    background-color: red;
+    font-size: medium;
+    text-align: center;
 }
 
